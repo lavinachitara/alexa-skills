@@ -1,0 +1,22 @@
+{
+  "name": "alexa-skills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*Test.js"
+  },
+  "author": "Lavina",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.3.0",
+    "aws-lambda-mock-context": "^3.2.1",
+    "chai": "^4.2.0",
+    "googlemaps": "^1.12.0",
+    "mocha": "^6.0.0",
+    "nconf": "^0.10.0"
+  }
+}
